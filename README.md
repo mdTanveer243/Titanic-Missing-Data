@@ -15,19 +15,19 @@ This project was built as a **data wrangling and preprocessing pipeline**:
 
 titanic-missing-data-cleaner/
 - └── README.md
-- ├── data/ # Raw dataset (train.csv)
-- ├── outputs/ # All generated outputs
-- │ ├── figures/ # Plots (missing values, confusion matrix, etc.)
+- ├── data/                          # Raw dataset (train.csv)
+- ├── outputs/                       # All generated outputs
+- │ ├── figures/                     # Plots (missing values, confusion matrix, etc.)
 - │ ├── train_cleaned.csv
 - │ └── model_report.txt
-- ├── src/ # Source code
+- ├── src/                           # Source code
 - │ ├── init.py
-- │ ├── cleaner.py # Missing data handling
-- │ ├── main.py # Entry point
-- │ ├── model.py # Logistic Regression training
-- │ ├── utils.py # Helper functions
-- │ └── visualize.py # Visualization functions
-- ├── requirements.txt # Project dependencies
+- │ ├── cleaner.py                   # Missing data handling
+- │ ├── main.py                      # Entry point
+- │ ├── model.py                     # Logistic Regression training
+- │ ├── utils.py                     # Helper functions
+- │ └── visualize.py                 # Visualization functions
+- ├── requirements.txt               # Project dependencies
 - ├── .gitignore
 
 
